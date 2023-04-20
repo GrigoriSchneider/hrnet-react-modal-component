@@ -58,10 +58,11 @@ const ModalContainer = styled.div`
   display: flex;
   align-items: center;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  box-shadow: 5px 5px 30px -6px rgba(0, 0, 0, 0.2);
+  box-shadow: 8px 5px 25px -6px rgba(0, 0, 0, 0.4);
 `;
 
 const Button = styled.button`
+  font-family: roboto;
   height: 100%;
   width: 60px;
   cursor: pointer;
@@ -72,7 +73,8 @@ const Button = styled.button`
 `;
 
 const ModalMessage = styled.span`
+  font-family: roboto;
   color: "#32D7F0";
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 1rem;
+  margin-right: 1rem;
 `;
