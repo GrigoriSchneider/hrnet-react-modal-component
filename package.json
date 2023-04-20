@@ -1,7 +1,8 @@
 {
-  "name": "react-modal-component",
+  "name": "hrnet-react-modal-component",
   "version": "0.1.0",
   "author": "GrigoriSchneider",
+  "description": "basic react modal component",
   "dependencies": {
     "prop-types": "^15.8.1",
     "styled-components": "^5.3.9"
@@ -38,6 +39,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "URL_OF_YOUR_REPOSITORY"
-  }
+    "url": "https://github.com/GrigoriSchneider/hrnet-react-modal-component"
+  },
+  "bugs": {
+    "url": "https://github.com/GrigoriSchneider/hrnet-react-modal-component"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ui",
+    "modal"
+  ]
 }
