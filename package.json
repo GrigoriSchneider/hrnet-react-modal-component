@@ -3,12 +3,15 @@
   "version": "0.1.0",
   "author": "GrigoriSchneider",
   "description": "basic react modal component",
-  "dependencies": {
+  "peerDependencies": {
     "prop-types": "^15.8.1",
     "styled-components": "^5.3.9"
   },
   "scripts": {
-    "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files --ignore __tests__,spec.js,test.js,__snapshots__"
+    "start": "react-scripts start",
+    "build": "SET NODE_ENV=production && rm -rf dist && mkdir dist && npx babel src/lib --out-dir dist --copy-files",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
