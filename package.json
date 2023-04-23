@@ -32,6 +32,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
     "babel-cli": "^6.26.0"
   },
   "main": "dist/index.js",
@@ -52,5 +55,8 @@
     "components",
     "ui",
     "modal"
-  ]
+  ],
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1"
+  }
 }
