@@ -1,6 +1,6 @@
 {
   "name": "hrnet-react-modal-component",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "author": "GrigoriSchneider",
   "description": "basic react modal component",
   "peerDependencies": {
